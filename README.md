@@ -3,10 +3,12 @@
   Note : This is for IPU Students and which are enrolled in BTECH BCA BBA courses.
   
 ## Command
+ 
    * Open a terminal in the activity folder and run the following command:
+   * make sure you edited credentials file (otherwise you will get error)
 
   ```node
-  node myresult "YOUR_ROLL_NUMBER" "YOUR_BRANCH" "credentials.json"
+  node myresult "credentials.json"
   
   ```
 .
@@ -35,12 +37,15 @@
   npm install
   ```
 
-* Create a credentials.JSON in the activity folder file with your email and password as follows:
+* Create a credentials.JSON in the activity folder file with your details:
   
   ```json
     {
-        "senderEmail": "YOUR_EMAIL_ID_HERE",
-        "pwd": "YOUR_PASSWORD_HERE",
-    }
+    "from" : "SENDERS_EMIAL",
+    "pwd" : "SENDERS_PASSWORD" ,
+    "to":"RECEIVER_EMAIL",
+    "enroll":"YOUR_EMAIL",
+    "branch":"YOUR_BRANCH"
+}
   ```
 
