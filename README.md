@@ -1,5 +1,7 @@
 # Automating-the-result
-  This is an automated web scraper written in node, using puppeteer.This will give you a pdf of your result 
+  This is an automated web scraper written in node, using puppeteer.This will give you a pdf of your result
+  <br>
+  
   Note : <br>
   1.This is for IPU Students and which are enrolled in BTECH BCA BBA courses.<br>
   <p>2.Before sending your email using gmail you have to allow non secure apps to access gmail you can do this by going to your gmail settings [https://myaccount.google.com/lesssecureapps?pli=1]<br><p>
