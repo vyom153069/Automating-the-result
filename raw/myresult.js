@@ -62,7 +62,7 @@ var currentPath = process.cwd();
   let overall = await tab.$(".flex-grid.block-shadow-danger");
   let text = await tab.evaluate((overall) => overall.innerHTML, overall);
   final += `<hr><div>${text}</div><hr>`;
-  console.log(final);
+  //console.log(final);
 
   //first pdf (but no need)
   /*
