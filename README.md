@@ -3,7 +3,7 @@
   <br>
   
   Note : <br>
-  1.This is for IPU Students and which are enrolled in BTECH BCA BBA courses.<br>
+  1.This is for IPU Students and which are enrolled in B.TECH BCA BBA courses.<br>
   <p>2.Before sending your email using gmail you have to allow non secure apps to access gmail you can do this by going to your gmail settings [https://myaccount.google.com/lesssecureapps?pli=1]<br><p>
   3.Also enable the captcha [https://accounts.google.com/DisplayUnlockCaptcha]
 
@@ -36,10 +36,13 @@
 
 * Open the base directory of the repository.
 
-* Run the following command in terminal:
+* Run the following commands in terminal to install required modules:
 
   ```node
   npm install
+  ```
+  ```node
+  npm install nodemailer
   ```
 
 * Create a credentials.JSON in the activity folder file with your details:
@@ -50,7 +53,7 @@
     "pwd" : "SENDERS_PASSWORD" ,
     "to":"RECEIVER_EMAIL",
     "enroll":"YOUR_EMAIL",
-    "branch":"YOUR_BRANCH"
+    "course":"YOUR_COURSE"
   }
   ```
 
