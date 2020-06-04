@@ -50,7 +50,7 @@
     "pwd" : "SENDERS_PASSWORD" ,
     "to":"RECEIVER_EMAIL",
     "enroll":"YOUR_EMAIL",
-    "branch":"YOUR_BRANCH"
+    "branch":"YOUR_COURSE"
   }
   ```
 
