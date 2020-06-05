@@ -13,7 +13,7 @@ var currentPath = process.cwd();
   let myEmail = credentials.from;
   let pwd = credentials.pwd;
   let enroll = credentials.enroll;
-  let branch = credentials.branch;
+  let course = credentials.course;
   let to = credentials.to;
 
   //browser activity
@@ -29,15 +29,15 @@ var currentPath = process.cwd();
     timeout: 60000,
   });
 
-  //enroll and branch
+  //course and branch
   console.log("page open");
   await tab.waitForSelector("#enrolment");
   console.log("Enrollment number inserted");
   await tab.type("#enrolment", enroll, { delay: 100 });
   await tab.click(".input-control select");
-  await tab.keyboard.type(branch);
+  await tab.keyboard.type(course);
   await tab.keyboard.press("Enter");
-  console.log("Branch chosen");
+  console.log("Course chosen");
 
   //getting result
   await Promise.all([
